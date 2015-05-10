@@ -39,7 +39,7 @@ $mysqli = new mysqli("localhost", $db_user, $db_pass, $db_name);
 		<OPTION value="M2">M2</OPTION>
 		<input type="submit" />
 	</form>
-
+	<hr>
 	<?php
 //フォームからのデータをデータベースに挿入
 	if(!empty($data01) && isset($data02) && !empty($data03) && !empty($data04) && !empty($data05) && !empty($data06)){
